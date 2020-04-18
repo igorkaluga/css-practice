@@ -149,3 +149,40 @@ body{
   padding: 15px;
   box-sizing: border-box;
 }
+
+.p-box{
+  width: 700px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+}
+
+.p-box h1{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.p-box h2{
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+}
+
+.fix-me{
+  position: fixed;
+  top: 400px;
+}
+
+.my-list li:first-child{
+  background: yellow;
+}
+
+.my-list li:last-child{
+  background: violet;
+}
+
+.my-list li:nth-child(5){
+  background: blue;
+}
